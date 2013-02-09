@@ -117,7 +117,7 @@ int main (int argc, char const* argv[])
 		calculateAndVisualizeHist(t[2],256,256,"Cb");
 	}
 	waitKey(0);
-		
+	destroyAllWindows();	
 	return 0;
 }
 
